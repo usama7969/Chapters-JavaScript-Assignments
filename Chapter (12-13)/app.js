@@ -1,10 +1,16 @@
 // 1
+var char = prompt("Enter character");
+var asciiCode = char.charCodeAt(0);
 
-
-
-
-
-
+if (asciiCode >= 48 && asciiCode <= 57) {
+    alert("This is a number.");
+}
+else if (asciiCode >= 65 && asciiCode <= 90) {
+    alert("This is an uppercase letter.");
+}
+else if (asciiCode >= 97 && asciiCode <= 122) {
+    alert("This is a lowercase letter.");
+}
 
 
 // 2
